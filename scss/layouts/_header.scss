@@ -1,0 +1,59 @@
+.virtula_about{
+    padding: 138px 0px 103px;
+    .virtual_title{
+      width: 100%;  
+      max-width: 450px;
+      font-size: 40px;
+      line-height: 57px;
+      font-weight: 700;
+      margin-bottom: 36px;
+      span{
+        color:#8176AF;
+      }
+    }
+    .virtual_text{
+        width: 100%;
+        max-width: 450px;
+    }
+    .virtual_sign{
+        display: flex;
+        align-items:center;
+        margin-top: 66px;
+        gap: 40px;
+    
+    }
+}
+.payme{
+    margin-bottom: 90px;
+    .container{
+        padding: 26px 80px 26px 54px;
+        background-color:#3A3456F2;
+        border-radius:90px
+    }
+
+    .payme_list{
+       width: 100%;
+       display: flex;
+       align-items:center;
+       justify-content: space-between;
+       
+
+       li{
+        display: flex;
+        align-items:center;
+        gap: 24px;
+        padding: 30px 0px;
+        
+      
+        h4{
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 9px;
+            }
+        p{
+            font-size: 14px;
+            line-height: 17px;
+            }
+       }
+    }
+}

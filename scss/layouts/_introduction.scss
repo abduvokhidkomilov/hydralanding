@@ -1,0 +1,45 @@
+.introduction{
+    .retry_box{
+        @include flex-center;
+
+    h3{
+        font-size: 36px;
+        line-height: 44px;
+        font-weight: 200;
+    }
+    .introduction_slid_title{
+        font-weight: 700;
+    }
+    p{
+        width: 100%;
+        max-width: 652px;
+    }
+    .retry_swap{
+        display: flex;
+        align-items:center;
+        gap: 30px;
+    }
+    }
+    .i_about_box{
+        margin: 70px 0px 110px;
+        @include flex-center;
+        gap: 113px;
+
+        h3{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            width: 100%;
+            max-width: 199px;
+            margin-bottom: 42px;
+            span{
+                font-weight: 300;
+            }
+        }
+        p{
+            margin-bottom: 75px;
+            font-weight: 100;
+            color:#ffffffbd;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+
+
+// 1. Base stuff
+@import
+  'base/variables',
+  'base/reset',
+  'base/mixin';
+
+// 2. Layout-related sections
+@import
+'layouts/header',
+'layouts/navbar',
+'layouts/introduction',
+'layouts/build',
+'layouts/tecnology',
+'layouts/how_build',
+'layouts/joinhydra',
+'layouts/footer';

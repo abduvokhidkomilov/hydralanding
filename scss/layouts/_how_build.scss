@@ -1,0 +1,31 @@
+.how_build{
+    .h_build_list{
+        @include flex-center;
+        margin: 145px 0px 117px;
+    h4{
+        width: 160px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        height: 160px;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 78px;
+        color:#343045;
+        padding: 35px;
+        background-color:#C0B7E8;
+        border-radius:50%;
+        margin-bottom: 45px;
+        
+    }
+    p{
+        font-size: 24px;
+        line-height: 30px;
+        width: 100%;
+        max-width: 180px;
+    }
+    div{
+        display: flex;
+    }
+    }
+}

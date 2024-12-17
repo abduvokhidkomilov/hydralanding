@@ -1,0 +1,27 @@
+.header{
+    .container {
+    @include flex-center;
+  }
+    .header__logo{
+        @include flex-center;
+    }
+    .header__list{
+        @include flex-center;
+        gap: 42px;
+    }
+    .header__btns{
+        @include flex-center;
+        gap: 38px;
+
+        a{
+            padding: 16px 36px;
+            border: 1px solid #fff;
+            border-radius: 40px;
+        }
+        .join_hydra{
+            background:linear-gradient(#8176AF 30%,#C0B7E8 60% )
+        }
+    }
+
+    
+}

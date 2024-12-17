@@ -1,0 +1,33 @@
+.tecnology{
+    margin-bottom: 80px;
+    .tecnology_box{
+     padding: 108px 358px 96px 343px; 
+     background:url(../../img/png/tecnology_bg.png);  
+     background-size: cover;
+     border-radius:160px;
+     text-align: center;
+     position: relative;
+     h4{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 11px;
+     }
+    p{
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 44px;
+    }
+     img{
+        padding: 20px;
+        background-color:#8176AF;
+        border-radius:50%;
+        position: absolute;
+        left: 45%;
+        bottom: -50px
+     }
+    }
+    .tecnology_list{
+        @include flex-center;
+    }
+}
